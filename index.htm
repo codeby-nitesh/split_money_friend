@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Splitwise App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💰 Splitwise Calculator</h1>
+
+        <input type="number" id="numFriends" placeholder="Enter number of friends">
+        <button onclick="generateInputs()">Next</button>
+
+        <div id="inputs"></div>
+
+        <button id="calculateBtn" onclick="calculate()" style="display:none;">
+            Calculate Split
+        </button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
