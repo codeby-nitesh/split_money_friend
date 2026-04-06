@@ -41,3 +41,9 @@ button:hover {
     margin-top: 20px;
     text-align: left;
 }
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
